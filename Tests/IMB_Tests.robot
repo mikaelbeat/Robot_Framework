@@ -8,7 +8,7 @@ Test Teardown  Common.End Web Test
 
 *** Variables ***
 ${ENVIRONMENT} =  qa
-${BROWSER} =  ff
+${BROWSER} =  googlechrome
 &{URL}  dev=http://dev.internetmillionaireblueprint.com  qa=http://qa.internetmillionaireblueprint.com  stage=http://stage.internetmillionaireblueprint.com  prod=http://www.amazon.com
 &{CUSTOMER_USER}  FirstName=Bryan  LastName=Lamb  Dob=1/1/1900  Email=bryan@robotframework.com  Password=MyPassword!
 &{ADMIN_USER}  FirstName=Joe  LastName=Smith  Dob=1/1/1900  Email=admin@robotframework.com  Password=AdminPassword!

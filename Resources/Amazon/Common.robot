@@ -5,7 +5,7 @@ Library  Selenium2Library
 
 *** Keywords ***
 Begin Web Test
-    Open Browser  about:blank  ie
+    Open Browser  about:blank  googlechrome
     # Maximize Browser Window
 
 End Web Test
